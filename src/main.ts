@@ -12,7 +12,7 @@ import '@/styles/style.css'
 
 const app = createApp(App)
 const pinia = createPinia()
-const i18n = createI18n({ locale: 'zh', messages:{zh,en})
+const i18n = createI18n({ locale: 'zh', messages:{zh,en}})
 
 app.use(pinia)
 app.use(router)
