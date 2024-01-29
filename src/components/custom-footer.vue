@@ -11,7 +11,7 @@ const { t } = useI18n()
     <div class="mx-auto flex h-14 w-256 max-w-full whitespace-nowrap flex items-center justify-center">
       <ASpace>
         <div>
-          Copyright 2024
+          Copyright &copy; 2024 ~  {{ currentYear }}
         </div>
       </ASpace>
     </div>
