@@ -116,9 +116,7 @@ const languagesChange = val => (appStore.languages = val)
             </ADoption>
           </template>
         </ADropdown>
-        <AButton size="small" type="secondary">
-          <template #icon><i class="i-icons:github" /></template>
-        </AButton>
+        
       </ASpace>
     </div>
   </ALayoutHeader>
